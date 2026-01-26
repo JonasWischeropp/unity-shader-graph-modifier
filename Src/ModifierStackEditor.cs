@@ -45,7 +45,8 @@ namespace JonasWischeropp.Unity.EditorTools.ShaderGraph {
         }
 
         public override Texture2D RenderStaticPreview(string assetPath, UnityEngine.Object[] subAssets,int width,int height) {
-            var texture = AssetDatabase.LoadAssetByGUID<Texture2D>(new GUID("3f4514221147a72db9ee4377b8d59bed"));
+            string path = AssetDatabase.GUIDToAssetPath(new GUID("3f4514221147a72db9ee4377b8d59bed"));
+            var texture = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
 
             Texture2D copy = new Texture2D (width, height);
             EditorUtility.CopySerialized(texture, copy);
