@@ -27,7 +27,7 @@ Installation using the Package Manager:
 1. Click on the `+` in the `Package Manager` window
 2. Chose `Add package from git URL...`
 3. Insert the following URL `https://github.com/JonasWischeropp/unity-shader-graph-modifier.git`  
-A specific [release](https://github.com/JonasWischeropp/unity-shader-graph-modifier/releases) version can be specified by appending `#<version>` (e.g. `...ifier.git#1.0.0`).
+A specific [release](https://github.com/JonasWischeropp/unity-shader-graph-modifier/releases) version can be specified by appending `#<version>` (e.g. `...ifier.git#1.0.1`).
 4. Press the `Add`-Button
 
 ## Additional Info
