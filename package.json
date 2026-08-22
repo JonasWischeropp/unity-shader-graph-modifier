@@ -1,6 +1,6 @@
 {
     "name": "jonaswischeropp.unity-shader-graph-modifier",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Shader Graph Modifier",
     "description": "Editor tool that adds additional features (like stencil buffers) to shader graphs.",
     "author": {
