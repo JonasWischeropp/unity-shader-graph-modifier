@@ -5,14 +5,14 @@ using UnityEngine;
 namespace JonasWischeropp.Unity.EditorTools.ShaderGraph {
     [Serializable]
     public class AddStencilModifier : Modifier {
-        [SerializeField, Multiline]
+        [SerializeField, Multiline(7)]
         string _stencilBlock = "Ref 1\nComp Equal\nPass Keep\n";
 
         static Regex regex = new Regex(@"Pass\s*{\s*Name """);
 
         public override string Apply(string code) {
             Match match = regex.Match(code);
-            
+
             string i3 = new string('\t', 3);
             string i4 = new string('\t', 4);
 
